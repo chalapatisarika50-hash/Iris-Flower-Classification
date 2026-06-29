@@ -1,0 +1,6 @@
+{
+  "name": "Iris Flower Classification",
+  "description": "An interactive machine learning playground to explore the Iris dataset, train models (KNN, Decision Trees, and Neural Networks) directly in the browser, and visualize decision boundaries in real time.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
