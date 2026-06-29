@@ -1,20 +1,43 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Iris Flower Classification
 
-# Run and deploy your AI Studio app
+## Overview
+This project uses Machine Learning to classify Iris flowers into three species:
+- Setosa
+- Versicolor
+- Virginica
 
-This contains everything you need to run your app locally.
+The classification is based on flower measurements such as sepal length, sepal width, petal length, and petal width.
 
-View your app in AI Studio: https://ai.studio/apps/8e8a3af6-949a-4508-896d-0403550dd6f6
+## Features
+- Data Preprocessing
+- Exploratory Data Analysis (EDA)
+- Machine Learning Classification
+- Model Evaluation
+- Species Prediction
 
-## Run Locally
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
 
-**Prerequisites:**  Node.js
+## Dataset
+The Iris dataset contains measurements of Iris flowers categorized into three species.
 
+## Project Workflow
+1. Data Collection
+2. Data Cleaning
+3. Exploratory Data Analysis
+4. Feature Selection
+5. Model Training
+6. Model Evaluation
+7. Prediction
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Results
+The trained model accurately classifies Iris flowers based on their measurements.
+
+## Author
+Completed as part of the CodSoft Data Science Internship Program.
